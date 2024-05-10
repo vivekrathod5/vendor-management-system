@@ -45,7 +45,7 @@ python manage.py migrate
 
 ### 5. Run the Management Cammand
 ```bash
-# To create a sytem user
+# To create a sytem user and access token
 python manage.py seed --mode=refresh
 
 # To clear/delete a sytem user
@@ -99,5 +99,3 @@ This API uses token-based authentication. You need to obtain an authentication t
 
 - **Performance Metrics**
   - `GET /api/vendors/{vendor_id}/performance`: Vendor Performance
-
-
